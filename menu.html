@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu — Café Coffee Windhoek</title>
+  <meta name="description" content="Coffee, new drinks and light bites at Café Coffee Windhoek, Olympia." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;900&family=Instrument+Sans:wght@400;500;600&family=Caveat:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="index.html" class="logo-mark" aria-label="Café Coffee home">
+        <svg class="cup-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path class="steam steam-1" d="M24 4c-3 3-3 6 0 9s3 6 0 9" />
+          <path class="steam steam-2" d="M34 4c-3 3-3 6 0 9s3 6 0 9" />
+          <path d="M14 26h30v10c0 8-7 14-15 14s-15-6-15-14V26z" />
+          <path d="M44 30h4a5 5 0 010 10h-4" />
+          <line x1="10" y1="54" x2="48" y2="54" />
+        </svg>
+        <span class="logo-text"><span class="l1">Café</span><span class="l2">Coffee</span></span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+
+      <nav id="primary-nav" class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html" aria-current="page">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="btn btn-primary" href="https://wa.me/" target="_blank" rel="noopener"><!-- TODO: replace with real wa.me/<number> link -->WhatsApp us</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <div class="wrap">
+        <p class="eyebrow">What's on the board</p>
+        <h1>Menu</h1>
+        <p class="lede">Today's specials are the ones chalked up in‑store &mdash; prices below reflect those. Classic espresso drinks are always available; ask your barista for today's price.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+
+        <div class="menu-group">
+          <div class="menu-group-head">
+            <h2 style="font-size:clamp(1.6rem,4vw,2.2rem)">Coffee</h2>
+          </div>
+          <div class="menu-items">
+            <div class="menu-item">
+              <div>
+                <span class="name">Coffee + Brötchen</span>
+                <p class="desc">Freshly brewed coffee with a warm bread roll &mdash; today's special.</p>
+              </div>
+              <span class="price">N$60</span>
+            </div>
+            <div class="menu-item">
+              <div>
+                <span class="name">Espresso</span>
+                <p class="desc">Single or double shot.</p>
+              </div>
+              <span class="price tbd">Ask your barista</span>
+            </div>
+            <div class="menu-item">
+              <div>
+                <span class="name">Americano</span>
+                <p class="desc">Espresso, long over hot water.</p>
+              </div>
+              <span class="price tbd">Ask your barista</span>
+            </div>
+            <div class="menu-item">
+              <div>
+                <span class="name">Cappuccino</span>
+                <p class="desc">Espresso, steamed milk, thick foam.</p>
+              </div>
+              <span class="price tbd">Ask your barista</span>
+            </div>
+            <div class="menu-item">
+              <div>
+                <span class="name">Flat White</span>
+                <p class="desc">Espresso, silky microfoam.</p>
+              </div>
+              <span class="price tbd">Ask your barista</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-group">
+          <div class="menu-group-head">
+            <h2 style="font-size:clamp(1.6rem,4vw,2.2rem)">Something new</h2>
+          </div>
+          <div class="menu-items">
+            <div class="menu-item">
+              <div>
+                <span class="name">Matcha<span class="badge-new">New</span></span>
+                <p class="desc">Green tea beverage, served over ice.</p>
+              </div>
+              <span class="price">N$45</span>
+            </div>
+            <div class="menu-item">
+              <div>
+                <span class="name">Passion Fruit &amp; Lemonade<span class="badge-new">New</span></span>
+                <p class="desc">Bright, cold and refreshing.</p>
+              </div>
+              <span class="price">N$35</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-group">
+          <div class="menu-group-head">
+            <h2 style="font-size:clamp(1.6rem,4vw,2.2rem)">Light bites</h2>
+          </div>
+          <div class="menu-items">
+            <div class="menu-item">
+              <div>
+                <span class="name">Brötchen</span>
+                <p class="desc">Fresh bread roll, filled daily &mdash; ask what's on today.</p>
+              </div>
+              <span class="price tbd">Ask your barista</span>
+            </div>
+            <div class="menu-item">
+              <div>
+                <span class="name">Slice of Pie</span>
+                <p class="desc">Everyday is pie day.</p>
+              </div>
+              <span class="price tbd">Ask your barista</span>
+            </div>
+            <div class="menu-item">
+              <div>
+                <span class="name">Cooldrink + Pie</span>
+                <p class="desc">A cold drink paired with a slice of pie.</p>
+              </div>
+              <span class="price">N$50</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="chalkboard">
+      <div class="wrap" style="text-align:center">
+        <p class="eyebrow">Every day</p>
+        <h2 style="margin-bottom:0.6rem">Everyday is pie day.</h2>
+        <p style="max-width:44ch;margin:0 auto;color:rgba(253,251,246,0.75)">Pop in, see what's chalked up, and ask your barista what's fresh. The board changes &mdash; the coffee doesn't.</p>
+        <a class="btn btn-primary" style="margin-top:1.6rem" href="contact.html">Find us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a href="index.html" class="logo-mark" aria-label="Café Coffee home">
+          <svg class="cup-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 26h30v10c0 8-7 14-15 14s-15-6-15-14V26z" />
+            <path d="M44 30h4a5 5 0 010 10h-4" />
+            <line x1="10" y1="54" x2="48" y2="54" />
+          </svg>
+          <span class="logo-text"><span class="l1">Café</span><span class="l2">Coffee</span></span>
+        </a>
+        <p style="margin-top:1rem;font-size:0.9rem;max-width:32ch;">Part of the EMONEKO Group. Coffee makes everything better.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>EMONEKO Building</li>
+          <li>Cnr David Carstens &amp; Hidipo Hamutenya Str</li>
+          <li>Olympia, Windhoek</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>&copy; <span id="year"></span> Café Coffee Windhoek</span>
+      <span>Mon&ndash;Fri, 07h00&ndash;17h00</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
